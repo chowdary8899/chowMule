@@ -1,0 +1,22 @@
+#%RAML 1.0
+title: Customer_Id
+baseUri: http://localhost:8081/api
+version: v1
+mediaType: 
+- application/json
+protocols:
+  - HTTP
+
+/getCust:
+  get:
+    queryParameters:
+      customerId:
+    responses:
+          200:
+            body:
+              application/json:
+                example:
+                  {
+                    "name":"chow",
+                    "status":"success"
+                  }
