@@ -138,7 +138,8 @@ output application/json
 ---
 {
   name: "chow",
-  status: "success"
+  status: "success",
+  "id":200
 }]]></ee:set-payload>
             </ee:message>
         </ee:transform>
